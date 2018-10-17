@@ -8,7 +8,14 @@ import store from './store'
 
 // Vue.config.productionTip = false
 import 'common/stylus/index.styl'
- 
+
+/* eslint-disable no-unused-vars */
+import vConsole from 'vconsole'
+
+console.log('test')
+
+
+
 fastclick.attach(document.body)
 
 Vue.use(VueLazyLoad, {

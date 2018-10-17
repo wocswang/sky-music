@@ -119,7 +119,7 @@ export default {
    },
 
    confirmClear() {
-     this.delteSongList()
+     this.deleteSongList()
      this.hide()
    },
    addSong() {
